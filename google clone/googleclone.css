@@ -1,0 +1,134 @@
+
+.navbar nav {
+    float :right;
+    }
+    
+.navbar nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    ; font-size: 20px;
+}
+.navbar nav ul li a {
+    text-decoration: none;
+    color: black
+}
+
+.navbar nav ul li a:hover {
+    text-decoration: underline;
+    color: gray
+}
+.navbar nav ul li .signin {
+background: blue;
+font: bold;
+padding: 7px 15px;
+color:white;
+border-radius: 4px;
+}
+
+
+.main {
+    padding-top: 100px;
+    
+    }
+.logo {display: block;
+    margin: 0 auto;
+    margin-top: 160px;
+
+}
+.searchbar {
+   max-width: 550px;
+    margin: auto;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+.searchbar input {
+    margin:  auto ;
+width : 522px;
+height: 60px;
+border-radius: 35px;
+padding: 15px;
+font-size: 20px;
+}
+.but {
+    height: 40px;
+    max-width: auto;
+  /* margin: 0px auto; */
+  text-align: center;
+  padding: 15px;
+  
+}
+.but button {
+    width: 160px;
+    height: 40px;
+   font-size: 17px;
+    
+  
+}
+.but  button:hover {
+  
+    color: gray
+}
+.bar  {
+width: 800px;
+    margin:  auto;
+    padding: 20px;
+      
+}
+.bar  nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    
+    font-size: 20px;
+}
+.bar  nav ul li a{
+    text-decoration: none;
+  
+}
+.adbar  {
+  
+    margin-top: 500px;
+    height: 50px;
+       background-color:ghostwhite;
+          padding: 3px;
+    }
+    .adbar  nav ul li{
+        list-style-type: none;
+        display: inline;
+        padding: 10px;
+        ;
+       
+      }
+    .adbar  nav ul li a{
+        text-decoration: none;
+        color: grey;
+        font-size: 20px;
+    }
+    .adbar nav ul li a:hover {
+        text-decoration: underline;
+        color: gray
+    }
+    .foot {
+  width: auto;
+ position: fixed;
+        float: right;
+        background-color:ghostwhite;
+           
+     }
+     .foot nav ul li{
+         list-style-type: none;
+         display: inline;
+         padding: 5px;
+         ;
+        
+     }
+     .foot  nav ul li a{
+         text-decoration: none;
+         color: grey;
+     }
+     .foot nav ul li a:hover {
+         text-decoration: underline;
+         color: gray
+     }
